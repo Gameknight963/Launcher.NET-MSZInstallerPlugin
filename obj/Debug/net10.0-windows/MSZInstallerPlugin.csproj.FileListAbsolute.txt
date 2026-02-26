@@ -1,0 +1,40 @@
+C:\Users\sebi G\projects\MSZInstallerPlugin\bin\Debug\net10.0-windows\MSZInstallerPlugin.deps.json
+C:\Users\sebi G\projects\MSZInstallerPlugin\bin\Debug\net10.0-windows\MSZInstallerPlugin.dll
+C:\Users\sebi G\projects\MSZInstallerPlugin\bin\Debug\net10.0-windows\MSZInstallerPlugin.pdb
+C:\Users\sebi G\projects\MSZInstallerPlugin\bin\Debug\net10.0-windows\launcherdotnet.dll
+C:\Users\sebi G\projects\MSZInstallerPlugin\bin\Debug\net10.0-windows\Semver.dll
+C:\Users\sebi G\projects\MSZInstallerPlugin\bin\Debug\net10.0-windows\MLInstaller.SDK.dll
+C:\Users\sebi G\projects\MSZInstallerPlugin\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+C:\Users\sebi G\projects\MSZInstallerPlugin\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\sebi G\projects\MSZInstallerPlugin\bin\Debug\net10.0-windows\launcherdotnet.pdb
+C:\Users\sebi G\projects\MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.csproj.AssemblyReference.cache
+C:\Users\sebi G\projects\MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebi G\projects\MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.AssemblyInfoInputs.cache
+C:\Users\sebi G\projects\MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.AssemblyInfo.cs
+C:\Users\sebi G\projects\MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.csproj.CoreCompileInputs.cache
+C:\Users\sebi G\projects\MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInsta.62120F09.Up2Date
+C:\Users\sebi G\projects\MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.dll
+C:\Users\sebi G\projects\MSZInstallerPlugin\obj\Debug\net10.0-windows\refint\MSZInstallerPlugin.dll
+C:\Users\sebi G\projects\MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.pdb
+C:\Users\sebi G\projects\MSZInstallerPlugin\obj\Debug\net10.0-windows\ref\MSZInstallerPlugin.dll
+C:\Users\sebi G\projects\MSZInstallerPlugin\bin\Debug\net10.0-windows\launcherdotnet.xml
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\bin\Debug\net10.0-windows\MSZInstallerPlugin.deps.json
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\bin\Debug\net10.0-windows\MSZInstallerPlugin.dll
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\bin\Debug\net10.0-windows\MSZInstallerPlugin.pdb
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\bin\Debug\net10.0-windows\launcherdotnet.dll
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\bin\Debug\net10.0-windows\Semver.dll
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\bin\Debug\net10.0-windows\MLInstaller.SDK.dll
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\bin\Debug\net10.0-windows\launcherdotnet.pdb
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\bin\Debug\net10.0-windows\launcherdotnet.xml
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.csproj.AssemblyReference.cache
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.AssemblyInfoInputs.cache
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.AssemblyInfo.cs
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.csproj.CoreCompileInputs.cache
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInsta.62120F09.Up2Date
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.dll
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\obj\Debug\net10.0-windows\refint\MSZInstallerPlugin.dll
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\obj\Debug\net10.0-windows\MSZInstallerPlugin.pdb
+C:\Users\sebi G\projects\Launcher.NET plugins\Launcher.NET-MSZInstallerPlugin\obj\Debug\net10.0-windows\ref\MSZInstallerPlugin.dll

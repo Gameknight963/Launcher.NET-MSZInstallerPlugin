@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="launcherdotnet">
+      <HintPath>..\..\launcher.NET\bin\Debug\net10.0-windows\launcherdotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Semver">
+      <HintPath>..\..\launcher.NET\bin\Debug\net10.0-windows\Semver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
