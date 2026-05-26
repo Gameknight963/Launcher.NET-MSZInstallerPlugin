@@ -1,22 +1,16 @@
-﻿namespace MSZInstallerPlugin
-{
-    using launcherdotnet;
-    using launcherdotnet.PluginAPI;
-    using Semver;
-    using System;
-    using System.IO.Compression;
-    using System.Net.Http;
-    using System.Runtime.CompilerServices;
-    using System.Runtime.InteropServices.Marshalling;
-    using System.Text.Json.Nodes;
-    using System.Threading.Tasks;
+﻿using launcherdotnet.PluginAPI;
+using Semver;
+using System.IO.Compression;
+using System.Text.Json.Nodes;
 
+namespace MSZInstallerPlugin
+{
     public class Installer : IGameInstaller
     {
         public string GameName => "Miside Zero";
         public string Name => "Miside Zero Installer";
         public string Description => "Downloads and installs Miside Zero from my Github mirror";
-        public SemVersion TargetApiVersion => new SemVersion(0, 6, 0);
+        public SemVersion TargetApiVersion => new SemVersion(0, 8, 0);
 
         private readonly string _releasesEndpoint = "https://api.github.com/repos/Gameknight963/MSZVersionArchive/releases";
 
@@ -34,15 +28,15 @@
             JsonArray releases = JsonNode.Parse(responseString)?.AsArray()
                 ?? throw new InvalidOperationException("Invalid stable releases API response.");
 
-            foreach (var release in releases)
+            foreach (JsonNode? release in releases)
             {
-                if (!SemVersion.TryParse(release?["tag_name"]?.ToString(), SemVersionStyles.Any, out var relVersion))
+                if (!SemVersion.TryParse(release?["tag_name"]?.ToString(), SemVersionStyles.Any, out SemVersion? relVersion))
                     continue;
 
-                var assets = release?["assets"]?.AsArray();
+                JsonArray? assets = release?["assets"]?.AsArray();
                 if (assets == null) continue;
 
-                var downloadAsset = assets.FirstOrDefault(x =>
+                JsonNode? downloadAsset = assets.FirstOrDefault(x =>
                     x?["name"]?.ToString().Contains("win64") == true);
 
                 if (downloadAsset == null) continue;
@@ -64,9 +58,7 @@
             ReleaseInfo? found = versions.FirstOrDefault(r => r == release);
             if (found == null) throw new InvalidOperationException("Selected version not found.");
 
-            using HttpClient http = new HttpClient();
-
-            using (HttpResponseMessage response = await http.GetAsync(found.Url, HttpCompletionOption.ResponseHeadersRead))
+            using (HttpResponseMessage response = await launcherdotnet.Networking.LauncherHttp.Client.GetAsync(found.Url, HttpCompletionOption.ResponseHeadersRead))
             {
                 response.EnsureSuccessStatusCode();
 
@@ -100,7 +92,7 @@
                         int totalEntries = archive.Entries.Count;
                         int extractedEntries = 0;
 
-                        foreach (var entry in archive.Entries)
+                        foreach (ZipArchiveEntry entry in archive.Entries)
                         {
                             string destinationPath = Path.Combine(installDir, entry.FullName);
 

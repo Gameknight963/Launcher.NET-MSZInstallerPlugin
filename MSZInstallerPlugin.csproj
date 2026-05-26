@@ -8,10 +8,10 @@
 
   <ItemGroup>
     <Reference Include="launcherdotnet">
-      <HintPath>..\..\launcher.NET\bin\Debug\net10.0-windows\launcherdotnet.dll</HintPath>
+      <HintPath>..\launcherdotnet\bin\Debug\net10.0-windows\launcherdotnet.dll</HintPath>
     </Reference>
     <Reference Include="Semver">
-      <HintPath>..\..\launcher.NET\bin\Debug\net10.0-windows\Semver.dll</HintPath>
+      <HintPath>..\launcherdotnet\bin\Debug\net10.0-windows\Semver.dll</HintPath>
     </Reference>
   </ItemGroup>
 
